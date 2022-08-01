@@ -2,6 +2,7 @@ import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { getData } from "../utils/getData";
 import { PersonCard } from "./PersonCard";
+import { Spinner } from "./Spinner";
 
 // stops execution for ms milliseconds
 const sleep = (ms) => {
@@ -44,7 +45,7 @@ export const MainHomeContent = () => {
   return (
     <main>
       {/* if data is loading show loading page */}
-      {isLoading && <p>Loading</p>}
+      {isLoading && <Spinner />}
 
       {/* shown in case of errors */}
       {!isLoading && !data && <p>Error Loading data</p>}

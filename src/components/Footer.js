@@ -5,8 +5,12 @@ import React from "react";
 export const Footer = () => {
   return (
     <AppBar
-      position="static"
-      sx={{ position: "fixed", bottom: "0", backgroundColor: "#ffffff" }}
+      sx={{
+        display: { md: "flex", xs: "none" },
+        position: "static",
+        bottom: "0",
+        backgroundColor: "#ffffff",
+      }}
     >
       <Toolbar
         sx={{

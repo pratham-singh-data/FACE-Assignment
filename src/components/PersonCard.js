@@ -17,8 +17,8 @@ export const PersonCard = ({ data }) => {
         border: "1px solid black",
         display: "flex",
         flexDirection: "column",
-        width: { md: "40%", sm: "100%" },
-        mt: { md: "20px", sm: "10px" },
+        width: { md: "40%", xs: "100%" },
+        mt: { md: "20px", xs: "10px" },
         padding: "10px",
       }}
     >

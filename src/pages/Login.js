@@ -55,7 +55,7 @@ export const Login = ({ login, setLogin }) => {
       <div>
         <Container
           sx={{
-            width: { md: "40%", sm: "100%" },
+            width: { md: "40%", xs: "100%" },
             display: "flex",
             flexDirection: "column",
           }}
