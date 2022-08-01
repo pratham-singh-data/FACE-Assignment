@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/FACE-Assignment/static/js/main.52ae414f.js",
+    "main.js": "/FACE-Assignment/static/js/main.c90c48d1.js",
     "static/media/no_search.png": "/FACE-Assignment/static/media/no_search.fef08760dff9b8210b54.png",
     "static/media/user_no_pic.png": "/FACE-Assignment/static/media/user_no_pic.a6143582309785dca610.png",
     "index.html": "/FACE-Assignment/index.html",
-    "main.52ae414f.js.map": "/FACE-Assignment/static/js/main.52ae414f.js.map"
+    "main.c90c48d1.js.map": "/FACE-Assignment/static/js/main.c90c48d1.js.map"
   },
   "entrypoints": [
-    "static/js/main.52ae414f.js"
+    "static/js/main.c90c48d1.js"
   ]
 }
