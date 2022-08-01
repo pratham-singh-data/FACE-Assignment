@@ -6,7 +6,7 @@ import { Header } from "./Header";
 
 export const MainPageLayout = () => {
   // state to check whether user is logged in or not
-  const [login, setLogin] = useState(true);
+  const [login, setLogin] = useState(false);
 
   return (
     <div>
