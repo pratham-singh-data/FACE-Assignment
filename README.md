@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Face Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project was made as part of the Full Stack Development Internship hiring by Focus Academy for Career Enhancement. It is built in JavaScript and React and consists of a login page and a contacts list (home) page.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+1. The application allows for access to homepage only after a login. No backend code has been added to allow logins so for the time being the only registered username is "foo" whose password is "bar".
 
-### `npm start`
+2. Once logged in, the user can access the homepage which consists of a list of contacts as cards with each contact being given by their image, name, gender, age, cell and telephone numbers, location and email ID.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Full webapp is responsive and built using MaterialUI and React.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. The contact list is retrieved from the randomuser.me API, five hundred (500) records are fetched at once and displayed, further records could not be retrieved at present.
 
-### `npm test`
+5. The list is initially loaded with only ten (10) entries, but as the user scrolls down, they can encounter a button which they can click to load more results.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Logout button is only visible to the user once logged in and similarly the Load More button disappears after all possible entries have been displayed.
 
-### `npm run build`
+7. A loader is added and shows up before the initial results load on the home page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+8. The Load More button displays results with a one (1) second delay and at that time that button remains disabled.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+9. A footer added at the end to attribute the creator of the webapp.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+10. A login page shows a message at the bottom of the screen when wrong credentials are given, clicking on this makes it collapse.
 
-### `npm run eject`
+## Attributions
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. `FACE` : The project given by them and their logo was used throughout the project. (https://www.focusacademy.in/)
+2. `randomuser.me` : This was the API used to get data being displayed on this webapp. (https://randomuser.me/)
+3. `Freepik` : no_search.png image was given by them. (https://www.flaticon.com/authors/freepik)
+4. `Smashicons` : user_no_pic.png image was given by them. (https://www.flaticon.com/authors/smashicons)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Deployment
+Application is deployed at:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+https://pratham-singh-data.github.io/FACE-Assignment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Source Code
+Source Code is present at:
 
-## Learn More
+https://github.com/pratham-singh-data/FACE-Assignment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact Details
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Name: Pratham Singh
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+E Mail: PrathamSinghCE@gmail.com
