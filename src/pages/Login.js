@@ -21,7 +21,7 @@ export const Login = ({ login, setLogin }) => {
 
   //   id user is currently logged in, they are redirected to the home page
   if (login) {
-    return <Navigate to="/" />;
+    return <Navigate to="/FACE-Assignment/" />;
   }
 
   //   username input change handler

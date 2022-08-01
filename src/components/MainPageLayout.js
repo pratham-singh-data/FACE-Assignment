@@ -12,9 +12,9 @@ export const MainPageLayout = () => {
     <div>
       <Header login={login} setLogin={setLogin} />
       <Routes>
-        <Route path="/" element={<Home login={login} />} />
+        <Route path="/FACE-Assignment/" element={<Home login={login} />} />
         <Route
-          path="/login"
+          path="/FACE-Assignment/login"
           element={<Login login={login} setLogin={setLogin} />}
         />
       </Routes>

@@ -5,7 +5,7 @@ import { MainHomeContent } from "../components/MainHomeContent";
 
 export const Home = ({ login }) => {
   if (!login) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/FACE-Assignment/login" />;
   }
 
   return (
