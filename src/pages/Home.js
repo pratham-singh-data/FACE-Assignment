@@ -1,5 +1,6 @@
 import React from 'react'
 import { Navigate } from 'react-router'
+import { MainHomeContent } from '../components/MainHomeContent';
 
 export const Home = ({login}) => {
     if(!login){
@@ -7,6 +8,8 @@ export const Home = ({login}) => {
     }
 
   return (
-    <div>Home</div>
+    <div>
+        <MainHomeContent/>
+    </div>
   )
 }
