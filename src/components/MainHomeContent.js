@@ -1,6 +1,7 @@
 import { Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import { getData } from "../utils/getData";
+import { ErrorPage } from "./ErrorPage";
 import { PersonCard } from "./PersonCard";
 import { Spinner } from "./Spinner";
 
@@ -18,7 +19,7 @@ export const MainHomeContent = () => {
 
   //   get full dataset at the first render
   useEffect(() => {
-    getData()
+    getData(setIsLoading)
       .then((res) => {
         setFullData(res);
       })
@@ -48,7 +49,7 @@ export const MainHomeContent = () => {
       {isLoading && <Spinner />}
 
       {/* shown in case of errors */}
-      {!isLoading && !data && <p>Error Loading data</p>}
+      {!isLoading && (!data || data.length === 0) && <ErrorPage />}
 
       {/* render contacts cards */}
       {data && data.length !== 0 && (
