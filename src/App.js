@@ -3,9 +3,9 @@ import { MainPageLayout } from "./components/MainPageLayout";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <CssBaseline/>
-      <MainPageLayout/>
+      <MainPageLayout />
     </div>
   );
 }
